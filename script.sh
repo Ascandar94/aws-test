@@ -4,8 +4,8 @@
 
 cd /home/ec2-user
 
-sudo yum -y upgrade
-sudo yum install -y git
+#sudo yum -y upgrade
+#sudo yum install -y git
 #git clone https://github.com/ysennoun/the-green-earth-post.git
 sudo yum install pip -y
 pip3 install -r aws-test/back_end/requirements.txt
